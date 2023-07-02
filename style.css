@@ -1,0 +1,82 @@
+body {
+  background-color: antiquewhite;
+}
+
+nav img {
+  width: 12%;
+}
+
+nav div {
+  text-align: center;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 50px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  width: 100%;
+}
+
+#buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#cortado {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sub-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+
+.sub-button img {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.sub-img {
+  text-align: center;
+  margin: 10px;
+  display: inline-block;
+}
+
+.sub-img img {
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  nav img {
+    width: 20%;
+  }
+
+  nav div {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  nav img {
+    width: 30%;
+  }
+
+  nav div {
+    font-size: 20px;
+  }
+
+  #btn img {
+    width: 300px;
+  }
+}
